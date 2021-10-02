@@ -16,6 +16,7 @@
 		2849A9A3270899EC00FFC8AA /* ExploreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2849A9A2270899EC00FFC8AA /* ExploreController.swift */; };
 		2849A9A527089A1400FFC8AA /* NotificationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2849A9A427089A1400FFC8AA /* NotificationsController.swift */; };
 		2849A9A727089A3800FFC8AA /* ConversationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2849A9A627089A3800FFC8AA /* ConversationsController.swift */; };
+		2849A9A92708A20600FFC8AA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2849A9A82708A20600FFC8AA /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		2849A9A2270899EC00FFC8AA /* ExploreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreController.swift; sourceTree = "<group>"; };
 		2849A9A427089A1400FFC8AA /* NotificationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsController.swift; sourceTree = "<group>"; };
 		2849A9A627089A3800FFC8AA /* ConversationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsController.swift; sourceTree = "<group>"; };
+		2849A9A82708A20600FFC8AA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 		2849A9982708960700FFC8AA /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				2849A9A82708A20600FFC8AA /* Constants.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				2849A987270894FD00FFC8AA /* SceneDelegate.swift in Sources */,
 				2849A99F2708972F00FFC8AA /* MainTabController.swift in Sources */,
 				2849A9A1270899BE00FFC8AA /* FeedController.swift in Sources */,
+				2849A9A92708A20600FFC8AA /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
