@@ -17,6 +17,7 @@
 		2849A9A527089A1400FFC8AA /* NotificationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2849A9A427089A1400FFC8AA /* NotificationsController.swift */; };
 		2849A9A727089A3800FFC8AA /* ConversationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2849A9A627089A3800FFC8AA /* ConversationsController.swift */; };
 		2849A9A92708A20600FFC8AA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2849A9A82708A20600FFC8AA /* Constants.swift */; };
+		2849A9AB2708A8DD00FFC8AA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2849A9AA2708A8DD00FFC8AA /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		2849A9A427089A1400FFC8AA /* NotificationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsController.swift; sourceTree = "<group>"; };
 		2849A9A627089A3800FFC8AA /* ConversationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsController.swift; sourceTree = "<group>"; };
 		2849A9A82708A20600FFC8AA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2849A9AA2708A8DD00FFC8AA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				2849A9A82708A20600FFC8AA /* Constants.swift */,
+				2849A9AA2708A8DD00FFC8AA /* Extensions.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2849A9A527089A1400FFC8AA /* NotificationsController.swift in Sources */,
+				2849A9AB2708A8DD00FFC8AA /* Extensions.swift in Sources */,
 				2849A9A727089A3800FFC8AA /* ConversationsController.swift in Sources */,
 				2849A985270894FD00FFC8AA /* AppDelegate.swift in Sources */,
 				2849A9A3270899EC00FFC8AA /* ExploreController.swift in Sources */,
