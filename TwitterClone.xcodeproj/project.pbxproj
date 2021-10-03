@@ -18,6 +18,9 @@
 		2849A9A727089A3800FFC8AA /* ConversationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2849A9A627089A3800FFC8AA /* ConversationsController.swift */; };
 		2849A9A92708A20600FFC8AA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2849A9A82708A20600FFC8AA /* Constants.swift */; };
 		2849A9AB2708A8DD00FFC8AA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2849A9AA2708A8DD00FFC8AA /* Extensions.swift */; };
+		2849A9AF2709243200FFC8AA /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2849A9AE2709243200FFC8AA /* LoginController.swift */; };
+		2849A9B12709248700FFC8AA /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2849A9B02709248700FFC8AA /* RegistrationController.swift */; };
+		2849A9B327092CF200FFC8AA /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2849A9B227092CF200FFC8AA /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		2849A9A627089A3800FFC8AA /* ConversationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsController.swift; sourceTree = "<group>"; };
 		2849A9A82708A20600FFC8AA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		2849A9AA2708A8DD00FFC8AA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		2849A9AE2709243200FFC8AA /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		2849A9B02709248700FFC8AA /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
+		2849A9B227092CF200FFC8AA /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,10 +78,7 @@
 				2849A99A2708962400FFC8AA /* Controller */,
 				2849A9992708961400FFC8AA /* NetworkLayer */,
 				2849A9982708960700FFC8AA /* Utilities */,
-				2849A984270894FD00FFC8AA /* AppDelegate.swift */,
-				2849A986270894FD00FFC8AA /* SceneDelegate.swift */,
-				2849A98D2708950000FFC8AA /* Assets.xcassets */,
-				2849A98F2708950000FFC8AA /* LaunchScreen.storyboard */,
+				2849A9AC270923DD00FFC8AA /* Support */,
 				2849A9922708950000FFC8AA /* Info.plist */,
 			);
 			path = TwitterClone;
@@ -86,6 +89,7 @@
 			children = (
 				2849A9A82708A20600FFC8AA /* Constants.swift */,
 				2849A9AA2708A8DD00FFC8AA /* Extensions.swift */,
+				2849A9B227092CF200FFC8AA /* Utilities.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -100,6 +104,7 @@
 		2849A99A2708962400FFC8AA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				2849A9AD270923F500FFC8AA /* Authentication */,
 				2849A99E2708972F00FFC8AA /* MainTabController.swift */,
 				2849A9A0270899BE00FFC8AA /* FeedController.swift */,
 				2849A9A2270899EC00FFC8AA /* ExploreController.swift */,
@@ -128,6 +133,26 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		2849A9AC270923DD00FFC8AA /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				2849A984270894FD00FFC8AA /* AppDelegate.swift */,
+				2849A986270894FD00FFC8AA /* SceneDelegate.swift */,
+				2849A98D2708950000FFC8AA /* Assets.xcassets */,
+				2849A98F2708950000FFC8AA /* LaunchScreen.storyboard */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		2849A9AD270923F500FFC8AA /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				2849A9AE2709243200FFC8AA /* LoginController.swift */,
+				2849A9B02709248700FFC8AA /* RegistrationController.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,9 +230,12 @@
 				2849A985270894FD00FFC8AA /* AppDelegate.swift in Sources */,
 				2849A9A3270899EC00FFC8AA /* ExploreController.swift in Sources */,
 				2849A987270894FD00FFC8AA /* SceneDelegate.swift in Sources */,
+				2849A9B327092CF200FFC8AA /* Utilities.swift in Sources */,
+				2849A9B12709248700FFC8AA /* RegistrationController.swift in Sources */,
 				2849A99F2708972F00FFC8AA /* MainTabController.swift in Sources */,
 				2849A9A1270899BE00FFC8AA /* FeedController.swift in Sources */,
 				2849A9A92708A20600FFC8AA /* Constants.swift in Sources */,
+				2849A9AF2709243200FFC8AA /* LoginController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
