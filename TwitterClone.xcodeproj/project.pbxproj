@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06C1250AE5D4CD6115C4804E /* Pods_TwitterClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B0CAA8C94FCB2E6C8BCDA61 /* Pods_TwitterClone.framework */; };
 		2849A985270894FD00FFC8AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2849A984270894FD00FFC8AA /* AppDelegate.swift */; };
 		2849A987270894FD00FFC8AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2849A986270894FD00FFC8AA /* SceneDelegate.swift */; };
 		2849A98E2708950000FFC8AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2849A98D2708950000FFC8AA /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 		2849A9AF2709243200FFC8AA /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2849A9AE2709243200FFC8AA /* LoginController.swift */; };
 		2849A9B12709248700FFC8AA /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2849A9B02709248700FFC8AA /* RegistrationController.swift */; };
 		2849A9B327092CF200FFC8AA /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2849A9B227092CF200FFC8AA /* Utilities.swift */; };
+		2849A9B52709463C00FFC8AA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2849A9B42709463C00FFC8AA /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,10 @@
 		2849A9AE2709243200FFC8AA /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		2849A9B02709248700FFC8AA /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
 		2849A9B227092CF200FFC8AA /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		2849A9B42709463C00FFC8AA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7B0CAA8C94FCB2E6C8BCDA61 /* Pods_TwitterClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwitterClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		897BDB93E17C95C16DD107AA /* Pods-TwitterClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitterClone.release.xcconfig"; path = "Target Support Files/Pods-TwitterClone/Pods-TwitterClone.release.xcconfig"; sourceTree = "<group>"; };
+		ED48EC01FEAD5383348D8556 /* Pods-TwitterClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitterClone.debug.xcconfig"; path = "Target Support Files/Pods-TwitterClone/Pods-TwitterClone.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06C1250AE5D4CD6115C4804E /* Pods_TwitterClone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +65,8 @@
 			children = (
 				2849A983270894FD00FFC8AA /* TwitterClone */,
 				2849A982270894FD00FFC8AA /* Products */,
+				9DACCDEF9F0799E8E9E73AC7 /* Pods */,
+				DE8EE29437C942A68F997289 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,6 +89,7 @@
 				2849A9982708960700FFC8AA /* Utilities */,
 				2849A9AC270923DD00FFC8AA /* Support */,
 				2849A9922708950000FFC8AA /* Info.plist */,
+				2849A9B42709463C00FFC8AA /* GoogleService-Info.plist */,
 			);
 			path = TwitterClone;
 			sourceTree = "<group>";
@@ -155,6 +165,24 @@
 			path = Authentication;
 			sourceTree = "<group>";
 		};
+		9DACCDEF9F0799E8E9E73AC7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED48EC01FEAD5383348D8556 /* Pods-TwitterClone.debug.xcconfig */,
+				897BDB93E17C95C16DD107AA /* Pods-TwitterClone.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DE8EE29437C942A68F997289 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B0CAA8C94FCB2E6C8BCDA61 /* Pods_TwitterClone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -162,9 +190,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2849A9952708950000FFC8AA /* Build configuration list for PBXNativeTarget "TwitterClone" */;
 			buildPhases = (
+				A7B846CE718F55E517771C47 /* [CP] Check Pods Manifest.lock */,
 				2849A97D270894FD00FFC8AA /* Sources */,
 				2849A97E270894FD00FFC8AA /* Frameworks */,
 				2849A97F270894FD00FFC8AA /* Resources */,
+				1A5FB6E488238A656B7243C4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -214,10 +244,53 @@
 			files = (
 				2849A9912708950000FFC8AA /* LaunchScreen.storyboard in Resources */,
 				2849A98E2708950000FFC8AA /* Assets.xcassets in Resources */,
+				2849A9B52709463C00FFC8AA /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A5FB6E488238A656B7243C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TwitterClone/Pods-TwitterClone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TwitterClone/Pods-TwitterClone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TwitterClone/Pods-TwitterClone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7B846CE718F55E517771C47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TwitterClone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2849A97D270894FD00FFC8AA /* Sources */ = {
@@ -371,6 +444,7 @@
 		};
 		2849A9962708950000FFC8AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED48EC01FEAD5383348D8556 /* Pods-TwitterClone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -390,6 +464,7 @@
 		};
 		2849A9972708950000FFC8AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 897BDB93E17C95C16DD107AA /* Pods-TwitterClone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
