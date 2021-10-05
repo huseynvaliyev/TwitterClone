@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -23,6 +23,9 @@
 		2849A9B12709248700FFC8AA /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2849A9B02709248700FFC8AA /* RegistrationController.swift */; };
 		2849A9B327092CF200FFC8AA /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2849A9B227092CF200FFC8AA /* Utilities.swift */; };
 		2849A9B52709463C00FFC8AA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2849A9B42709463C00FFC8AA /* GoogleService-Info.plist */; };
+		2849A9B7270A0BEE00FFC8AA /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2849A9B6270A0BEE00FFC8AA /* AuthService.swift */; };
+		285C680E270CB2D100C312A3 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285C680D270CB2D100C312A3 /* UserService.swift */; };
+		285C6810270CB88F00C312A3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285C680F270CB88F00C312A3 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +46,9 @@
 		2849A9B02709248700FFC8AA /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
 		2849A9B227092CF200FFC8AA /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		2849A9B42709463C00FFC8AA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2849A9B6270A0BEE00FFC8AA /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		285C680D270CB2D100C312A3 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		285C680F270CB88F00C312A3 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		7B0CAA8C94FCB2E6C8BCDA61 /* Pods_TwitterClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwitterClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		897BDB93E17C95C16DD107AA /* Pods-TwitterClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitterClone.release.xcconfig"; path = "Target Support Files/Pods-TwitterClone/Pods-TwitterClone.release.xcconfig"; sourceTree = "<group>"; };
 		ED48EC01FEAD5383348D8556 /* Pods-TwitterClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitterClone.debug.xcconfig"; path = "Target Support Files/Pods-TwitterClone/Pods-TwitterClone.debug.xcconfig"; sourceTree = "<group>"; };
@@ -107,6 +113,8 @@
 		2849A9992708961400FFC8AA /* NetworkLayer */ = {
 			isa = PBXGroup;
 			children = (
+				2849A9B6270A0BEE00FFC8AA /* AuthService.swift */,
+				285C680D270CB2D100C312A3 /* UserService.swift */,
 			);
 			path = NetworkLayer;
 			sourceTree = "<group>";
@@ -141,6 +149,7 @@
 		2849A99D2708963B00FFC8AA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				285C680F270CB88F00C312A3 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -171,7 +180,6 @@
 				ED48EC01FEAD5383348D8556 /* Pods-TwitterClone.debug.xcconfig */,
 				897BDB93E17C95C16DD107AA /* Pods-TwitterClone.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -297,12 +305,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				285C680E270CB2D100C312A3 /* UserService.swift in Sources */,
 				2849A9A527089A1400FFC8AA /* NotificationsController.swift in Sources */,
 				2849A9AB2708A8DD00FFC8AA /* Extensions.swift in Sources */,
 				2849A9A727089A3800FFC8AA /* ConversationsController.swift in Sources */,
 				2849A985270894FD00FFC8AA /* AppDelegate.swift in Sources */,
 				2849A9A3270899EC00FFC8AA /* ExploreController.swift in Sources */,
 				2849A987270894FD00FFC8AA /* SceneDelegate.swift in Sources */,
+				2849A9B7270A0BEE00FFC8AA /* AuthService.swift in Sources */,
+				285C6810270CB88F00C312A3 /* User.swift in Sources */,
 				2849A9B327092CF200FFC8AA /* Utilities.swift in Sources */,
 				2849A9B12709248700FFC8AA /* RegistrationController.swift in Sources */,
 				2849A99F2708972F00FFC8AA /* MainTabController.swift in Sources */,

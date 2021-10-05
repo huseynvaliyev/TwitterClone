@@ -32,6 +32,8 @@ class Utilities {
     
     func textField(withPlaceholder placeholder: String) -> UITextField {
         let textField = UITextField()
+        textField.autocapitalizationType = .none
+        textField.autocorrectionType = .no
         textField.textColor = .white
         textField.font = UIFont.systemFont(ofSize: 16)
         textField.attributedPlaceholder = NSAttributedString(string: placeholder, attributes: [NSAttributedString.Key.foregroundColor : UIColor.white])

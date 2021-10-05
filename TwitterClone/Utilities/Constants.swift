@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Firebase
 
 enum Images {
     static let tabBarHome = UIImage(named: "home_unselected")
@@ -15,3 +16,10 @@ enum Images {
     static let twitterNavLogo = UIImage(named: "twitter_logo_blue")
     static let stickButtonImage = UIImage(named: "new_tweet")
 }
+
+let STORAGE_REF = Storage.storage().reference()
+let STORAGE_PROFILE_IMAGE = STORAGE_REF.child("profile_images")
+
+let url = "https://twitterclone-d9578-default-rtdb.europe-west1.firebasedatabase.app"
+let DB_REF = Database.database(url: url).reference()
+let REF_USERS = DB_REF.child("users")
